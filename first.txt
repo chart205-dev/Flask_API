@@ -1,0 +1,7 @@
+GitHubの練習用です。
+基本的な動作を学びます。
+.git add
+.git commit
+.git rm
+.git status
+.git diff
