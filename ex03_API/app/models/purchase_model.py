@@ -1,7 +1,7 @@
 from app.db.create_database import db
 from datetime import datetime
 
-class Puchase(db.Model):
+class Purchase(db.Model):
 	__tablename__ = 'purchases'
 
 	id = db.Column(db.Integer, primary_key=True, autoincrement=True)

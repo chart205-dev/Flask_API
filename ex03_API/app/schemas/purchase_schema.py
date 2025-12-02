@@ -1,5 +1,5 @@
 from marshmallow import Schema, fields, validate, ValidationError, validates
-from app.models.item import Item  
+from app.models.item_model import Item  
 
 class PurchaseSchema(Schema):
     id = fields.Int(dump_only=True)
